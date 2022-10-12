@@ -10,6 +10,5 @@ class Recibidor : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-
     }
 }

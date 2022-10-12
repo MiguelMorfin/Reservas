@@ -10,8 +10,10 @@ var btniniciarsesion: Button? = null
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
         btniniciarsesion = findViewById(R.id.btniniciarsesion)
 
         btniniciarsesion!!.setOnClickListener{
